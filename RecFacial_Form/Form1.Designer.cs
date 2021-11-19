@@ -46,13 +46,13 @@ namespace RecFacial_Form
             // 
             this.pic_Camera.Location = new System.Drawing.Point(28, 42);
             this.pic_Camera.Name = "pic_Camera";
-            this.pic_Camera.Size = new System.Drawing.Size(292, 292);
+            this.pic_Camera.Size = new System.Drawing.Size(359, 292);
             this.pic_Camera.TabIndex = 0;
             this.pic_Camera.TabStop = false;
             // 
             // pic_Captura
             // 
-            this.pic_Captura.Location = new System.Drawing.Point(347, 206);
+            this.pic_Captura.Location = new System.Drawing.Point(431, 206);
             this.pic_Captura.Name = "pic_Captura";
             this.pic_Captura.Size = new System.Drawing.Size(135, 128);
             this.pic_Captura.TabIndex = 1;
@@ -72,7 +72,7 @@ namespace RecFacial_Form
             // 
             this.lbl_Captura.AutoSize = true;
             this.lbl_Captura.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Captura.Location = new System.Drawing.Point(343, 183);
+            this.lbl_Captura.Location = new System.Drawing.Point(427, 183);
             this.lbl_Captura.Name = "lbl_Captura";
             this.lbl_Captura.Size = new System.Drawing.Size(66, 20);
             this.lbl_Captura.TabIndex = 3;
@@ -103,6 +103,7 @@ namespace RecFacial_Form
             this.btn_AbrirCam.TabIndex = 6;
             this.btn_AbrirCam.Text = "Abrir Camera";
             this.btn_AbrirCam.UseVisualStyleBackColor = true;
+            this.btn_AbrirCam.Click += new System.EventHandler(this.btn_AbrirCam_Click);
             // 
             // btn_Salvar
             // 
