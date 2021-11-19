@@ -113,6 +113,7 @@ namespace RecFacial_Form
             this.btn_Salvar.TabIndex = 7;
             this.btn_Salvar.Text = "Salvar";
             this.btn_Salvar.UseVisualStyleBackColor = true;
+            this.btn_Salvar.Click += new System.EventHandler(this.btn_Salvar_Click);
             // 
             // btn_Detectar
             // 
@@ -122,6 +123,7 @@ namespace RecFacial_Form
             this.btn_Detectar.TabIndex = 8;
             this.btn_Detectar.Text = "Detectar";
             this.btn_Detectar.UseVisualStyleBackColor = true;
+            this.btn_Detectar.Click += new System.EventHandler(this.btn_Detectar_Click);
             // 
             // form_RecFacial
             // 

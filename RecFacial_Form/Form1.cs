@@ -22,5 +22,16 @@ namespace RecFacial_Form
         {
             recFacial.openCamera(pic_Camera, pic_Captura);
         }
+
+        private void btn_Salvar_Click(object sender, EventArgs e)
+        {
+            recFacial.Save_IMAGE(txt_Nome.Text);
+            MessageBox.Show("Sucesso");
+        }
+
+        private void btn_Detectar_Click(object sender, EventArgs e)
+        {
+            recFacial.isTrained = true;
+        }
     }
 }
