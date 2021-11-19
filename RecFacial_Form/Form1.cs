@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RecFacial_Form
 {
-    public partial class Form1 : Form
+    public partial class form_RecFacial : Form
     {
-        public Form1()
+        public form_RecFacial()
         {
             InitializeComponent();
         }
